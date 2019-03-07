@@ -1,7 +1,8 @@
-*{
+body{
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: lightcyan;
 }
 
 .welcome {
@@ -11,13 +12,11 @@
 }
 
 nav {
-    background-color: black;
     position: fixed;
     width: 100%;
 }
 
 nav ul {
-    color: white;
     text-align: left;
     widows: 100%;
     margin: 0px;
@@ -30,10 +29,27 @@ nav ul li {
 }
 
 nav ul li a{
-    color: white;
     padding-right: 20px;
 }
 
 h1{
     text-align: center;
+}
+
+.profile {
+    border: 1px solid gray;
+    padding: 30px;
+    margin: 10px;
+    background-color: lightblue;
+}
+
+#profile-link {
+    font-size: 1em;
+}
+
+#projects {
+    border: 1px solid gray;
+    padding: 30px;
+    margin: 10px;
+    background-color: lightsteelblue;
 }
