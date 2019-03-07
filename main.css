@@ -1,15 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 .welcome {
     height: 500px;
     top: 0;
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
-#navbar {
+nav {
     background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
     color: white;
+    text-align: left;
+    widows: 100%;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    color: white;
+    padding-right: 20px;
 }
 
 h1{
     text-align: center;
-    
 }
